@@ -1,2 +1,25 @@
+.container {
+            display: flex;
+            justify-content: center;
+        }
 
-/* Your CSS Code here. */
+        .moviePic {
+            background-color: #dedede;
+            padding: 30px 30px 10px 30px;
+            border-radius: 20px;
+            width: 20%;
+        }
+        img{
+            border-radius: 20px;
+        }
+        .movieDetail{
+           position: relative;
+           text-align: center;
+           font-size: 30px;
+           width: 100%;
+           top: auto;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        span{
+            color: red;
+        }
